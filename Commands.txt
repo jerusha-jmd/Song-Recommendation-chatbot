@@ -1,0 +1,20 @@
+:: 1. Go to Desktop
+cd %USERPROFILE%\Desktop
+
+:: 2. Navigate to your project folder
+cd "final chatbot"
+
+:: 3. (Optional) Create a virtual environment
+python -m venv venv
+
+:: 4. Activate the virtual environment
+venv\Scripts\activate
+
+:: 5. Install required packages (Flask + TextBlob)
+pip install flask
+pip install textblob
+
+
+
+:: 9. Finally, run the app
+python app.py
